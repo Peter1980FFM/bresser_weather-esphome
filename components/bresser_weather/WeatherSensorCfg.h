@@ -424,10 +424,10 @@
     //#define USE_LR1121
 
     // Generic pinning for ESP8266 development boards (e.g. LOLIN/WEMOS D1 mini)
-    #define PIN_RECEIVER_CS   15
-    #define PIN_RECEIVER_IRQ  4
-    #define PIN_RECEIVER_GPIO 5
-    #define PIN_RECEIVER_RST  2
+    #define PIN_RECEIVER_CS   13
+    #define PIN_RECEIVER_IRQ  10
+    #define PIN_RECEIVER_GPIO 7
+    #define PIN_RECEIVER_RST  -1
 #endif
 
 #if defined(USE_CC1101)
