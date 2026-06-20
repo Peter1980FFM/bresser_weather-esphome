@@ -409,10 +409,10 @@
     #define USE_CC1101
     //#define USE_LR1121
     // Generic pinning for ESP32 development boards
-    #define PIN_RECEIVER_CS   27
-    #define PIN_RECEIVER_IRQ  21
-    #define PIN_RECEIVER_GPIO 33
-    #define PIN_RECEIVER_RST  32
+    #define PIN_RECEIVER_CS   13
+    #define PIN_RECEIVER_IRQ  10
+    #define PIN_RECEIVER_GPIO 7
+    #define PIN_RECEIVER_RST  -1
 #elif defined(ESP8266)
     #pragma message("ESP8266 defined; this is a generic (i.e. non-specific) target")
     #pragma message("Cross check if the selected GPIO pins are really available on your board.")
